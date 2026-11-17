@@ -77,6 +77,7 @@ O fine-tuning melhora a adaptação de domínio e o formato das respostas, mas n
 
 ## Resultados e desafios
 
+- **Experimentação:** foram treinados e avaliados mais de 15 modelos com 3 datasets diferentes (disponíveis no HuggingFace).
 - **Resultado reportado:** acurácia superior a 90% em avaliação prática de perguntas e respostas de ouvidoria, conduzida por ouvidores especialistas da ANEEL.
 - **Dados escassos:** uso de geração sintética para aumentar a variedade de exemplos disponíveis ao treinamento.
 - **Limite de recursos:** experimentação com quantização e LoRA para viabilizar o ajuste de modelos de até 8B parâmetros em hardware limitado.
